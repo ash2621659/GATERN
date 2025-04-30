@@ -4,7 +4,7 @@ The experimental framework of GATERN is implemented in Python 3.9.7 using Jupyte
 ## Feature Extraction
 The feature extraction is performed in two different stages:
 ### audio feature extraction: 
-can be extracted using teh EDA notebook file for the CREMAD-EDA.ipynb file provided 
+can be extracted using teh EDA notebook file named crema-d-emotion-recognition_full_data.ipynb file provided, the metadata file can be generated using the same notebook file.
 ### video feature extraction
 video features are extracted using the VGG-face model provided in UTERN repo, the 4096 dimensional feature vectors obtained are then reduced to a 50 dimensional vector.
 
