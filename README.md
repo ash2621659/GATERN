@@ -8,6 +8,6 @@ can be extracted using teh EDA notebook file for the CREMAD-EDA.ipynb file provi
 ### video feature extraction
 video features are extracted using the VGG-face model provided in UTERN repo, the 4096 dimensional feature vectors obtained are then reduced to a 50 dimensional vector.
 
-Both the audio features and the video features are pre-extracted along with the metadata file and can be downloaded from: https://livewarwickac-my.sharepoint.com/:f:/g/personal/u2066241_live_warwick_ac_uk/ElM7BeLWXMNFlFwIDTswZlsBXueezqZmgD3w0WY1PpHhHA?e=t8G5nv
+Both the audio features and the video features are pre-extracted  for CREMA-D along with the metadata file and can be downloaded from: https://livewarwickac-my.sharepoint.com/:f:/g/personal/u2066241_live_warwick_ac_uk/ElM7BeLWXMNFlFwIDTswZlsBXueezqZmgD3w0WY1PpHhHA?e=t8G5nv
 # Training and testing:
 The model can be trained and tested using the GRUAttention.ipynb file 
