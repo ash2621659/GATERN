@@ -6,8 +6,11 @@ The feature extraction is performed in two different stages:
 ### audio feature extraction: 
 can be extracted using teh EDA notebook file named crema-d-emotion-recognition_full_data.ipynb file provided, the metadata file can be generated using the same notebook file.
 ### video feature extraction
-video features are extracted using the VGG-face model provided in UTERN repo, the 4096 dimensional feature vectors obtained are then reduced to a 50 dimensional vector.
+video features are extracted using the VGG-face model provided in UTERN repo, the 4096 dimensional feature vectors obtained are then reduced to a 50 dimensional vectors.
 
 Both the audio features and the video features are pre-extracted  for CREMA-D along with the metadata file and can be downloaded from: https://livewarwickac-my.sharepoint.com/:f:/g/personal/u2066241_live_warwick_ac_uk/ElM7BeLWXMNFlFwIDTswZlsBXueezqZmgD3w0WY1PpHhHA?e=t8G5nv
 # Training and testing:
 The model can be trained and tested using the GRUAttention.ipynb file 
+
+## Results
+The results folder contains the classification reports from a few training session where the dataset was split into Training, Validation and Testing set. After training the model for a total of 15 epochs the model was tested on the testing set and the classification reports were obtained along with the correlation scores on the testing set. 
